@@ -7,7 +7,7 @@
 
   return (
     <DatePicker
-      showTimeSelect
+    showTimeSelect={true}
       selected={startDate}
       onChange={date => setStartDate(date)}
       timeClassName={handleColor}
