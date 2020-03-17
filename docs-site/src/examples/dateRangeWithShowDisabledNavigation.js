@@ -6,7 +6,7 @@
       onChange={date => setStartDate(date)}
       minDate={new Date()}
       maxDate={addMonths(new Date(), 5)}
-      showDisabledMonthNavigation
+    showDisabledMonthNavigation={true}
     />
   );
 };
