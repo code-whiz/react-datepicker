@@ -31,7 +31,7 @@ const Root = () => (
             Crafted by{" "}
             <img
               src={logo}
-              ungiu
+            ungiu={true}
               className="hero__image"
               alt="HackerOne"
               title="HackerOne"
