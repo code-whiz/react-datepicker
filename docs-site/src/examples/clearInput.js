@@ -4,7 +4,7 @@
     <DatePicker
       selected={startDate}
       onChange={date => setStartDate(date)}
-      isClearable
+    isClearable={true}
       placeholderText="I have been cleared!"
     />
   );
