@@ -11,7 +11,7 @@
     <DatePicker
       selected={startDate}
       onChange={date => setStartDate(date)}
-      showTimeInput
+    showTimeInput={true}
       customTimeInput={<ExampleCustomTimeInput />}
     />
   );
